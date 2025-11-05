@@ -162,3 +162,27 @@ span{
         content: 'Back-End Developer';
     }
 }
+.christopher{
+    color: rgb(173, 6, 210);
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+.html1{
+    color: rgb(243, 64, 9);
+    font-size: 1rem;
+}
+.css1{
+    color: rgb(9, 227, 243);
+    font-size: 1rem;
+}
+.boot1{
+    color: rgb(173, 6, 210);
+    font-size: 1rem;
+}
+.git{
+    color: rgb(60, 9, 243);
+    font-size: 1rem;
+}
+.container #text{
+    margin-top: 90px; 
+}
