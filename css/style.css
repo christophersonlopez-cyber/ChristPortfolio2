@@ -1,0 +1,164 @@
+.container{
+    background-color: rgb(20, 1, 38);
+    box-shadow: 1px 1px 10px 3px rgb(240, 3, 220);
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#home .container{
+    background-color: rgb(20, 1, 38);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.chris1{
+    border: 1px solid white;
+    width: 50%;
+    height: 30rem;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 5px white;
+    animation: color 2s infinite;
+}
+.chris2{
+    border: 1px solid white;
+    width: 50%;
+    height: 30rem;
+    margin: 10px;
+}
+#text{
+    margin-left: 10px;
+    padding: 20px;
+}
+@keyframes color{
+    0%{box-shadow: 1px 1px 20px 5px rgb(255, 0, 170);}
+    50%{box-shadow: 1px 1px 20px 5px rgb(26, 1, 119);}
+    100%{box-shadow: 1px 1px 20px 5px rgb(255, 0, 170);}
+}
+li:hover{
+    background-color: rgb(224, 7, 249);
+    border-radius: 10px;
+}
+.card-img-top{
+    width: 100%;
+    height: 70%;
+}
+.btn{
+    width: 100%;
+}
+.navbar{
+    background-color: rgb(23, 1, 45);
+   
+}
+.progress-bar1{
+    background-color: rgb(173, 6, 210);
+}
+.progress-bar{
+    background-color: rgb(60, 9, 243);
+}
+.progress-barhtml{
+    background-color: rgb(243, 64, 9);
+}
+.btn:hover{
+    background-color: rgba(246, 50, 181, 0.852);
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px white;
+    transform: scale(1.1);
+    transition: all .5s;
+}
+.card img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: 1px 1px 10px 5px white;
+    cursor: pointer;
+}
+#contact .container{
+    background-color: rgb(20, 1, 38);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+#home .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.textchris{
+    color: white;
+    font-size: 150%;
+    float: left;
+}
+span{
+    color: rgb(187, 6, 248);
+    font-weight: bold;
+    font-size: 2.7rem;
+}
+#text{
+    font-size: 1.2rem  ;
+}
+.fb{
+    width: 6%;
+    height: 6%;
+    margin-left: 20px;
+    margin-top: 10px;
+}.github{
+    width: 6%;
+    height: 6%;
+    margin-left: 20px;
+    margin-top: 10px;
+}.instagram{
+    width: 6%;
+    height: 6%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.textimage img:hover{
+    transform: scale(1.8);
+    transition: all .3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 5px rgb(245, 4, 209);
+   
+    border-radius: 50%;
+    
+}
+.btn{
+    border: 1px solid white ;
+    background-color: rgb(187, 6, 248);
+    box-shadow: 1px 1px 10px 2px rgb(200, 250, 248);
+    color: white;
+}
+.container1{
+    background-color: rgb(23, 1, 45);
+   
+    
+ 
+}
+
+.frontend::after{
+    color: blueviolet;
+    animation: change 3s infinite;
+    content: 'Front-End Developer';
+}
+@keyframes change{
+    0%{
+        color: white;
+        content: 'Back-End Developer';
+    }
+
+    50%{
+        
+        content: 'Front-End Developer';
+    }
+
+    100%{
+        color: white;
+        content: 'Back-End Developer';
+    }
+}
